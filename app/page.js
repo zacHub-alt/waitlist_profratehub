@@ -14,16 +14,8 @@ const Page = () => {
         return <Waitlist />;
     }
 
-    if (pathname === '/about') {
-        return <AboutPage />;
-    }
-
     if (pathname === '/post-submission') {
         return <ThankYouPage />;
-    }
-
-    if (pathname === '/review-page') {
-        return <ReviewPage />;
     }
 
     if (pathname === '/feedback') {
@@ -33,7 +25,6 @@ const Page = () => {
     if (pathname === '/signin') {
         return <SignIn />;
     }
-
 
     return <LandingPage />;
 };
